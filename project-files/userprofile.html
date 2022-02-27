@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="CSS/home-style.css" />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <title>ShipIt - Profile</title>
+  </head>
+  <body>
+    <!--Navigation/Header-->
+    <nav
+      class="
+        flex
+        justify-around
+        items-center
+        w-full
+        mt-4
+        text-xs
+        font-bold
+        mr-4
+        md:text-base
+      "
+    >
+      <a
+        href="index.html"
+        class="home p-1.5 rounded-2xl w-20 text-center md:rounded-3xl"
+        >Home</a
+      >
+      <a href="fullpost.html" class="nav-links w-20 text-center">Posts</a>
+
+      <a href="index.html" class="w-10 md:w-14 lg:w-20 xl:w-16"
+        ><img src="IMG/ship-icon.png" alt="ShipIt logo"
+      /></a>
+
+      <a href="userslist.html" class="nav-links w-20 text-center">Users</a>
+
+      <a href="userprofile.html" class="nav-links w-20 text-center">Profile</a>
+    </nav>
+
+    <!--Profile Info-->
+    <section class="profile-info flex xl:ml-32">
+      <img
+        class="ml-16 mt-10 w-20"
+        src="IMG/avatar.png"
+        alt="big ShipIt icon"
+      />
+      <h2 class="bio-text font-semibold mt-12 ml-4">Username</h2>
+      <p class="bio-text mt-20 -ml-14">Location</p>
+    </section>
+
+    <!--User Posts-->
+    <section
+      class="
+        user-posts-section
+        rounded-xl
+        m-auto
+        mt-10
+        pb-10
+        w-11/12
+        lg:w-4/5
+        xl:w-2/3
+      "
+    >
+      <h1
+        class="
+          user-posts-title
+          text-3xl
+          font-extrabold
+          pt-5
+          ml-7
+          lg:ml-24
+          xl:ml-80
+        "
+      >
+        User Posts
+      </h1>
+      <a class="w-auto" href="fullpost.html">
+        <div
+          class="
+            userpost-bg
+            shadow-md
+            rounded-xl
+            m-auto
+            mt-5
+            w-4/5
+            lg:w-3/5
+            xl:w-1/2
+          "
+        >
+          <div class="ml-5 space-y-3">
+            <h3 class="text-xl font-bold pt-3">Post Title</h3>
+            <p class="text-sm">AuthorFirst AuthorLast</p>
+          </div>
+          <p class="top-post-tags flex justify-end text-xs font-thin mr-2 pb-1">
+            tags, for, this, post
+          </p>
+        </div>
+      </a>
+      <a href="fullpost.html">
+        <div
+          class="
+            userpost-bg
+            shadow-md
+            rounded-xl
+            m-auto
+            mt-5
+            w-4/5
+            lg:w-3/5
+            xl:w-1/2
+          "
+        >
+          <div class="ml-5 space-y-3">
+            <h3 class="text-xl font-bold pt-3">Post Title</h3>
+            <p class="text-sm">AuthorFirst AuthorLast</p>
+          </div>
+          <p class="top-post-tags flex justify-end text-xs font-thin mr-2 pb-1">
+            tags, for, this, post
+          </p>
+        </div>
+      </a>
+      <a href="fullpost.html">
+        <div
+          class="
+            userpost-bg
+            shadow-md
+            rounded-xl
+            m-auto
+            mt-5
+            w-4/5
+            lg:w-3/5
+            xl:w-1/2
+          "
+        >
+          <div class="ml-5 space-y-3">
+            <h3 class="text-xl font-bold pt-3">Post Title</h3>
+            <p class="text-sm">AuthorFirst AuthorLast</p>
+          </div>
+          <p class="top-post-tags flex justify-end text-xs font-thin mr-2 pb-1">
+            tags, for, this, post
+          </p>
+        </div>
+      </a>
+    </section>
+
+    <footer class="w-full mt-5 mb-4 flex justify-center items-center">
+      <img class="w-4 h-4 mr-2" src="IMG/copyright.png" />
+      <p>| ShipIt 2021</p>
+    </footer>
+  </body>
+</html>

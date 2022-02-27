@@ -1,0 +1,260 @@
+body {
+  background-color: #002029;
+}
+
+/* Navigation */
+nav {
+  color: #31d5d8;
+}
+
+.nav-links:hover {
+  background-color: #053644;
+  border-radius: 1.5rem;
+  padding: 0.5rem;
+}
+
+/*Active/Tap States*/
+a.login:active {
+  background-color: #6b6e6e;
+  border-radius: 1.5rem;
+}
+
+.nav-links:active {
+  background-color: #053644;
+  border-radius: 1.5rem;
+  padding: 0.5rem;
+}
+
+.nav-links:focus {
+  background-color: #053644;
+  border-radius: 1.5rem;
+  padding: 0.5rem;
+}
+
+.login {
+  color: #186b6c;
+  background-color: #bac6c9;
+  border: 2px solid #31d5d8;
+}
+
+.login:hover {
+  background-color: #6b6e6e;
+  color: #cfd9db;
+}
+
+.login:active {
+  background-color: #6b6e6e;
+  color: #cfd9db;
+}
+
+.login:focus {
+  background-color: #6b6e6e;
+  color: #cfd9db;
+}
+/* Top Posts Section */
+
+.top-posts {
+  color: #bac6c9;
+}
+
+.post-container {
+  color: #edf0ee;
+}
+
+.post-bg {
+  margin: 0 auto;
+  height: 5rem;
+  width: 85%;
+  background-color: #1b2122;
+}
+
+.top-title-author {
+  position: relative;
+  top: 12%;
+}
+
+/*------------New Posts Section----------*/
+
+.new-posts {
+  color: #bac6c9;
+}
+
+.newpost-container {
+  color: #edf0ee;
+}
+
+.newpost-bg {
+  margin: 0 auto;
+  height: 5rem;
+  width: 85%;
+  background-color: #1b2122;
+}
+
+.new-title-author {
+  position: relative;
+  top: 12%;
+}
+
+/*-------------Full Post Page-------------*/
+
+.fullpost-title {
+  color: #bac6c9;
+}
+
+.fullpost-container {
+  color: #edf0ee;
+}
+
+.fullpost-bg {
+  margin: 0 auto;
+  height: max-content;
+  width: 90%;
+  background-color: #1b2122;
+}
+
+.fullpost-content {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.comment {
+  background-color: #bac6c9;
+  color: #002029;
+  border-radius: 0.75rem;
+}
+
+.comment a:hover {
+  width: 100%;
+  padding-left: 0.55rem;
+  background-color: #6b6e6e;
+  border-radius: 0.75rem;
+}
+
+.comment a:active {
+  background-color: #6b6e6e;
+  border-radius: 0.75rem;
+}
+
+.comment-bg {
+  background-color: #1b2122;
+  color: #edf0ee;
+}
+
+.comment-title {
+  color: #edf0ee;
+}
+
+.leave-comment {
+  margin: 0 auto;
+  padding: 1rem;
+  height: max-content;
+  overflow: scroll;
+}
+
+.submit-comment {
+  background-color: #bac6c9;
+  color: #0b303b;
+}
+
+.submit-comment:hover {
+  background-color: #6b6e6e;
+}
+
+.submit-comment:active {
+  background-color: #6b6e6e;
+}
+
+/*----------Login Form------------*/
+
+.home {
+  color: #186b6c;
+  background-color: #bac6c9;
+  border: 2px solid #31d5d8;
+}
+
+.home:hover {
+  background-color: #6b6e6e;
+  color: #cfd9db;
+}
+
+.home:active {
+  background-color: #6b6e6e;
+  color: #cfd9db;
+}
+.home:focus {
+  background-color: #6b6e6e;
+  color: #cfd9db;
+}
+
+.login-container {
+  height: max-content;
+  background-color: #1b2122;
+  margin: 0 auto;
+}
+
+.create-account-container {
+  height: max-content;
+  background-color: #1b2122;
+  margin: 0 auto;
+}
+
+.login-title {
+  color: #edf0ee;
+}
+
+.fieldlabels {
+  color: #31d5d8;
+}
+
+.login-signup-buttons {
+  color: #186b6c;
+  background-color: #bac6c9;
+  border: 2px solid #31d5d8;
+}
+
+.login-signup-buttons:hover {
+  background-color: #6b6e6e;
+  color: #cfd9db;
+}
+
+.login-signup-buttons:active {
+  background-color: #6b6e6e;
+  color: #cfd9db;
+}
+
+.login-signup-buttons:focus {
+  background-color: #6b6e6e;
+  color: #cfd9db;
+}
+
+.error-message {
+  color: #e70e02;
+  text-align: center;
+  margin-top: 8%;
+}
+
+/*------------Profile Page------------*/
+/*-------------Profile Info---------------*/
+.bio-text {
+  color: #edf0ee;
+}
+
+/*-------------User Posts---------------*/
+
+.userpost-bg {
+  background-color: #31d5d8;
+}
+
+.user-posts-section {
+  background-color: #1b2122;
+  height: max-content;
+}
+
+.user-posts-title {
+  color: #edf0ee;
+}
+
+/*Footer*/
+footer {
+  color: #31d5d8;
+}

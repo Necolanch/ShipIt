@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="CSS/home-style.css" />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <title>Full Post - ShipIt</title>
+  </head>
+  <body>
+    <!--Navigation/Header-->
+    <nav
+      class="
+        flex
+        justify-around
+        items-center
+        w-full
+        mt-4
+        text-xs
+        font-bold
+        mr-4
+        md:text-base
+      "
+    >
+      <a
+        href="login.html"
+        class="login p-1.5 rounded-2xl w-20 text-center md:rounded-3xl"
+        >Login</a
+      >
+      <a href="fullpost.html" class="nav-links w-20 text-center">Posts</a>
+      <a href="index.html" class="w-10 md:w-14 lg:w-20 xl:w-16"
+        ><img src="IMG/ship-icon.png" alt="ShipIt logo"
+      /></a>
+      <a href="userslist.html" class="nav-links w-20 text-center">Users</a>
+      <a href="userprofile.html" class="nav-links w-20 text-center">Profile</a>
+    </nav>
+
+    <!--Full Post Section-->
+    <h1
+      class="fullpost-title text-3xl font-extrabold mt-7 ml-7 lg:ml-20 xl:ml-52"
+    >
+      Post Title
+    </h1>
+
+    <article
+      class="
+        focus:
+        fullpost-container fullpost-bg
+        shadow-md
+        rounded-xl
+        mt-5
+        lg:w-4/5
+        xl:w-3/5
+      "
+    >
+      <div class="flex flex-col fullpost-content p-4">
+        <p class="text-sm font-medium mb-4">
+          I'm a complete failure. I can't even fake the death of a stripper. You
+          boys know how to shovel coal? It's a jetpack, Michael. What could
+          possibly go wrong? We all need to pick a day to try and make trend.
+          I'm sure, wherever your father is, she loves you very much. They want
+          to break his legs. It's a good thing he's already got that little
+          scooter. It's OUR nausea.
+        </p>
+        <p class="text-xs">AuthorFirst AuthorLast</p>
+
+        <p class="flex font-extralight fullpost-tags text-xs -mr-2 justify-end">
+          tags, for, this, post
+        </p>
+      </div>
+    </article>
+
+    <img
+      id="like-button"
+      class="mt-4 ml-10 md:ml-20 w-7 lg:ml-32 w-8 xl:ml-96"
+      src="IMG/heart.png"
+      alt="Like button"
+      width="19"
+      height="19"
+      style="filter: invert(100%)"
+    />
+
+    <script>
+      document
+        .querySelector("#like-button")
+        .addEventListener("click", function (e) {
+          document.querySelector("#like-button").src = "IMG/heart-icon.png";
+        });
+    </script>
+
+    <div
+      class="
+        comment
+        flex
+        justify-end
+        mr-12
+        -mt-6
+        w-16
+        ml-auto
+        md:w-20
+        lg:mr-20
+        xl:mr-80
+      "
+    >
+      <a href="#leave-comment">
+        <p class="relative text-xs p-1 md:mr-2">Comment</p>
+      </a>
+    </div>
+
+    <!--Comment Section-->
+
+    <h1
+      class="
+        comment-title
+        text-xl
+        font-semibold
+        mt-7
+        ml-7
+        md:ml-12
+        lg:ml-28
+        xl:ml-60
+      "
+    >
+      Comments
+    </h1>
+
+    <div
+      class="
+        comment-container comment-bg
+        rounded-xl
+        mt-5
+        m-auto
+        w-5/6
+        md:w-3/4
+        lg:w-3/5
+      "
+    >
+      <div class="flex flex-col comment-content p-4">
+        <h3 class="ml-3 mb-4 text-lg font-medium">Comment Author</h3>
+        <p class="text-sm mb-4">
+          I'm a complete failure. I can't even fake the death of a stripper. You
+          boys know how to shovel coal? It's a jetpack, Michael. What could
+          possibly go wrong? We all need to pick a day to try and make trend.
+          I'm sure, wherever your father is, she loves you very much. They want
+          to break his legs. It's a good thing he's already got that little
+          scooter. It's OUR nausea.
+        </p>
+
+        <h3 class="-ml-3 mb-4 text-lg font-medium"></h3>
+        <p class="text-sm mb-4"></p>
+      </div>
+    </div>
+
+    <!--Comment Text Area-->
+
+    <h1
+      class="
+        comment-title
+        text-xl
+        font-semibold
+        mt-7
+        ml-7
+        md:ml-10
+        lg:ml-24
+        xl:ml-56
+      "
+    >
+      Leave a Comment
+    </h1>
+    <form class="flex flex-col" action="get">
+      <textarea
+        id="leave-comment"
+        class="leave-comment mt-10 rounded-xl w-4/5 text-sm md:w-3/4 xl:w-4/6"
+        placeholder="Comment here..."
+        required
+      ></textarea>
+
+      <button
+        class="
+          submit-comment
+          w-1/4
+          p-1.5
+          ml-auto
+          mr-5
+          mt-4
+          rounded-xl
+          md:w-1/6
+          mr-8
+          lg:mr-12
+          xl:mr-32
+        "
+        type="submit"
+      >
+        Comment
+      </button>
+    </form>
+
+    <footer class="footer w-full mt-5 mb-3 flex justify-center items-center">
+      <img class="w-4 h-4 mr-2" src="IMG/copyright.png" />
+      <p>| ShipIt 2021</p>
+    </footer>
+  </body>
+</html>
